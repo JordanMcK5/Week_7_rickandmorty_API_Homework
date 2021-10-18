@@ -1,11 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import CharacterContainer from './containers/CharacterContainer';
 
 function App() {
   return (
     <div className="App">
-      <h1>Rick & Morty Characters</h1>
-     <CharacterContainer />
+    <h1>WUBBA LUBBA DUB-DUB!</h1>
+    <h2>Pick a character</h2>
+        <CharacterContainer />
     </div>
   );
 }
