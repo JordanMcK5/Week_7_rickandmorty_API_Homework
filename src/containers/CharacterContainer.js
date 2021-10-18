@@ -31,7 +31,7 @@ const CharacterContainer = () => {
 
     return (
         <div className="main-container">
-            {/* <CharacterSelect characters={characters} onCharacterSelect={handleCharacterSelect}/> */}
+            <CharacterSelect characters={characters} onCharacterSelected={handleCharacterSelect}/>
             <CharacterSearch characters={characters} onSearchChange={handleCharacterSelect}/>
             {selectedCharacter ? <CharacterDetail selectedCharacter={selectedCharacter} /> : null}
             
